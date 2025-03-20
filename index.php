@@ -34,21 +34,21 @@
       <div class="page-content-php">Please enter the following: </div>
       <div class="page-content-answer">
         <form action="answer.php" method="GET">
-          <p>Length</p>
+          <p>Length (cm)</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="length">
             <label class="mdl-textfield__label" for="length">Length of your cuboid here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
-          <p>Width</p>
+          <p>Width (cm)</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="width">
             <label class="mdl-textfield__label" for="width">Width of your cuboid here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
-          <p>Height</p>
+          <p>Height (cm)</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="height">
             <label class="mdl-textfield__label" for="height">Height of your cuboid here ...</label>
